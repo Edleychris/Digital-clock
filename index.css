@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url("https://images.unsplash.com/photo-1618259831738-178fe19eac2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Zmxvd2VycyUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80");
+    color: white;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container h1 {
+    font-size: 3rem;
+    margin-bottom: 0px;
+}
+.details {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    font-size: 2rem;
+    gap: 1rem;
+}
+.details h2 {
+    height: 60px;
+    background-color: green;
+    border: 0px solid green;
+    box-shadow: 0 8px 4px rgba(0, 0, 0, .9);
+    text-shadow: 0px 7px 3px rgba(0, 0, 0, .9);
+    opacity: .8;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    color: white;
+    margin-bottom: 0;
+    text-align: center;
+}
+.details span {
+    background-color: white;
+    height: 20px;
+    margin-top: 0rem;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    font-size: 19px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    font-weight: 3rem;
+}
+.details .AmPm {
+    height: 0px;
+    margin-top: 3rem;
+    color: white;
+    border: 10px solid green;
+    border-radius: 10px;
+}
